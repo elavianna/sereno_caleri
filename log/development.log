@@ -457,3 +457,7 @@ Migrating to CreateCategories (20160507153350)
 Migrating to AddPaperclipToItem (20160507153829)
   [1m[35m (2.0ms)[0m  ALTER TABLE `items` ADD `image_file_name` varchar(255)
 Mysql2::Error: Duplicate column name 'image_file_name': ALTER TABLE `items` ADD `image_file_name` varchar(255)
+  [1m[36mActiveRecord::SchemaMigration Load (77.7ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddPaperclipToItem (20160507153829)
+  [1m[35m (100.7ms)[0m  ALTER TABLE `items` ADD `image_file_name` varchar(255)
+Mysql2::Error: Duplicate column name 'image_file_name': ALTER TABLE `items` ADD `image_file_name` varchar(255)
